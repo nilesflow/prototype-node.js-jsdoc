@@ -1,0 +1,5 @@
+{
+  "source": ".",
+  "destination": "/var/www/html/esdoc/esdoc",
+  "excludes" : ["node_modules"]
+}

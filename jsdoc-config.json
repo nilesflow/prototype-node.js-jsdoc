@@ -1,0 +1,14 @@
+// if use, npm install git://github.com/jsdoc3/jsdoc.git
+{
+	"source": {
+		"include": ["."],
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "node_modules"
+  },
+  "opts": {
+  	"encoding": "utf8",               // same as -e utf8
+    "destination": "/var/www/html/jsdoc3/jsdoc3/",
+    "private" : true, // output private symbols
+    "recurse": true
+  }
+}
